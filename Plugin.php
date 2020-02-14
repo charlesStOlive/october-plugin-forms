@@ -87,6 +87,7 @@ class Plugin extends PluginBase
             'Martin\Forms\Components\GenericForm' => 'genericForm',
             'Martin\Forms\Components\UploadForm' => 'uploadForm',
             'Martin\Forms\Components\EmptyForm' => 'emptyForm',
+            'Martin\Forms\Components\WakaForm' => 'wakaform',
         ];
     }
 
