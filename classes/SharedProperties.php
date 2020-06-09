@@ -228,7 +228,11 @@ trait SharedProperties {
                 'title'             => 'martin.forms::lang.components.shared.recaptcha_size.title',
                 'description'       => 'martin.forms::lang.components.shared.recaptcha_size.description',
                 'type'              => 'dropdown',
-                'options'           => ['normal' => 'martin.forms::lang.components.shared.recaptcha_size.normal', 'compact' => 'martin.forms::lang.components.shared.recaptcha_size.compact'],
+                'options'           => [
+                    'normal' => 'martin.forms::lang.components.shared.recaptcha_size.normal',
+                    'compact' => 'martin.forms::lang.components.shared.recaptcha_size.compact',
+                    'invisible' => 'martin.forms::lang.components.shared.recaptcha_size.invisible',
+                ],
                 'default'           => 'normal',
                 'group'             => 'martin.forms::lang.components.shared.group_recaptcha',
                 'showExternalParam' => false
@@ -237,6 +241,13 @@ trait SharedProperties {
                 'title'             => 'martin.forms::lang.components.shared.skip_database.title',
                 'description'       => 'martin.forms::lang.components.shared.skip_database.description',
                 'type'              => 'checkbox',
+                'group'             => 'martin.forms::lang.components.shared.group_advanced',
+                'showExternalParam' => false
+            ],
+            'emails_date_format' => [
+                'title'             => 'martin.forms::lang.components.shared.emails_date_format.title',
+                'description'       => 'martin.forms::lang.components.shared.emails_date_format.description',
+                'default'           => 'Y-m-d',
                 'group'             => 'martin.forms::lang.components.shared.group_advanced',
                 'showExternalParam' => false
             ],
